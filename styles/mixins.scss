@@ -1,0 +1,16 @@
+@mixin A() {
+    text-decoration: none;
+}
+
+@mixin Flex() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin Small_font() {
+    font-size: clamp(16px, 1.04vw, 20px);
+}
+
+@mixin Big_font() {
+    font-size: clamp(24px, 1.6vw, 30px);
+}
